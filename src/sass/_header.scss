@@ -1,3 +1,32 @@
 .header {
-  background-color: aquamarine;
+  // background-color: aquamarine;
+}
+.header__box {
+  background-color: #0d0d33;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__list {
+  @extend %list;
+  display: flex;
+}
+.header__link {
+  @extend %link;
+  color: #ffffff;
+}
+.header__logo {
+}
+.logo__icon {
+  width: 91px;
+  height: 30px;
+}
+.header__btn {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #0d0d33;
+  color: #ffffff;
 }
