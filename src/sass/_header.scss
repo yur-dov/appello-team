@@ -1,13 +1,22 @@
 .header {
   // background-color: aquamarine;
+  background-color: #0d0d330a;
+  position: absolute;
+  width: 1440px;
+  margin: auto;
 }
 .header__box {
   background-color: #0d0d33;
+  padding-top: 55px;
 }
 .header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.nav__wrapp {
+  display: flex;
+  align-items: center;
 }
 .header__list {
   @extend %list;
@@ -16,6 +25,12 @@
 .header__link {
   @extend %link;
   color: #ffffff;
+}
+// .header__list-item {
+//   margin-right: 50px;
+// }
+.header__list-item:not(:last-child) {
+  margin-right: 50px;
 }
 .header__logo {
 }
@@ -29,4 +44,7 @@
   border-radius: 4px;
   background-color: #0d0d33;
   color: #ffffff;
+  width: 140px;
+  height: 38px;
+  margin-left: 52px;
 }
