@@ -1,0 +1,30 @@
+.banner__box {
+  background-image: url('../images/banner.png'), linear-gradient(#0d0d335e, #0d0d33);
+  padding: 240px 0 270px 140px;
+  background-repeat: no-repeat;
+}
+.banner__title {
+  color: #ffffff;
+  margin-bottom: 35px;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 50px;
+}
+.banner__text {
+  color: #ffffff;
+  margin-bottom: 35px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 30px;
+}
+.view_btn {
+  width: 163px;
+  height: 60px;
+  background: #0a8bfe;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+}
